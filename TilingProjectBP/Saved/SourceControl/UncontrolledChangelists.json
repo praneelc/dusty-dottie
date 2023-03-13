@@ -1,0 +1,34 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"H:/UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/TilingProjectBP/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"H:/UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/TilingProjectBP/Content/RollABall/BluePrints/BP_RockPlayer.uasset",
+				"H:/UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/TilingProjectBP/Content/RockMovement/MainLevel.umap",
+				"H:/UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/TilingProjectBP/Content/RockMovement/BluePrints/BP_DirtPickup.uasset",
+				"H:/UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/TilingProjectBP/Content/RockMovement/BluePrints/MyGameMode.uasset",
+				"H:/UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/TilingProjectBP/Content/RockMovement/BluePrints/BP_GameUI.uasset",
+				"H:/UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/TilingProjectBP/Content/RockMovement/BluePrints/BP_RockPlayer.uasset",
+				"H:/UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/TilingProjectBP/Content/RockMovement/Materials/MI_DirtPickup.uasset",
+				"H:/UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/TilingProjectBP/Content/RockMovement/Materials/M_DirtPickup.uasset",
+				"H:/UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/TilingProjectBP/Content/RockMovement/BluePrints/PickupBP_C.uasset",
+				"H:/UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/TilingProjectBP/Content/RockMovement/BluePrints/Default__MyGameModeBP_C.uasset",
+				"H:/UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/TilingProjectBP/Content/RockMovement/BluePrints/MyGameModeBP.uasset",
+				"H:/UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/TilingProjectBP/Content/RockMovement/BluePrints/MyGameModeBP_C.uasset",
+				"H:/UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/TilingProjectBP/Content/RockMovement/BluePrints/Default__PickupBP_C.uasset",
+				"H:/UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/TilingProjectBP/Content/RockMovement/BluePrints/PickupBP.uasset",
+				"H:/UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/TilingProjectBP/Content/RollABall/BluePrints/MyGameModeBP.uasset",
+				"H:/UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/TilingProjectBP/Content/RollABall/BluePrints/PickupBP.uasset",
+				"H:/UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/TilingProjectBP/Content/RollABall/Materials/M_DirtPickup.uasset",
+				"H:/UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/TilingProjectBP/Content/RollABall/Materials/MI_DirtPickup.uasset",
+				"H:/UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/TilingProjectBP/Content/RollABall/BluePrints/BP_GameUI.uasset",
+				"H:/UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/TilingProjectBP/Content/RollABall/BluePrints/MyGameMode.uasset",
+				"H:/UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/TilingProjectBP/Content/RollABall/BluePrints/BP_DirtPickup.uasset",
+				"H:/UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/TilingProjectBP/Content/RollABall/MainLevel.umap"
+			]
+		}
+	]
+}
