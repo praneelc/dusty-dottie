@@ -1434,3 +1434,1241 @@ Script Stack (0 frames):
 [2023.03.29-09.46.37:481][884]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2023.03.29-09.46.37:485][884]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
 [2023.03.29-09.46.37:502][885]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2023.03.29-09.48.06:567][888]LogSavePackage: Moving output files for package: /Game/TileSystem/E_ImpedimentType
+[2023.03.29-09.48.06:567][888]LogSavePackage: Moving '../../../../../UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/DustyDottie/Saved/E_ImpedimentType2964B3C940532D2F28A7D283419DC3D4.tmp' to '../../../../../UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/DustyDottie/Content/TileSystem/E_ImpedimentType.uasset'
+[2023.03.29-09.48.06:582][888]AssetCheck: New page: Asset Save: E_ImpedimentType
+[2023.03.29-09.48.06:584][888]LogContentValidation: Display: Validating UserDefinedEnum /Game/TileSystem/E_ImpedimentType.E_ImpedimentType
+[2023.03.29-09.48.10:283][269]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.29-09.48.10:289][269]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.29-09.48.10:289][269]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.29-09.48.10:289][269]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.29-09.48.10:289][269]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.03.29-09.48.10:289][269]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.03.29-09.48.10:289][269]LogWorldPartition: Display: GetPartitionedActors took 41 us
+[2023.03.29-09.48.10:290][269]LogWorldPartition: Display: GenerateStreaming took 151 us
+[2023.03.29-09.48.10:290][269]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.03.29-09.48.10:293][269]LogPlayLevel: [PlayLevel] Compiling BP_Dottie before play...
+[2023.03.29-09.48.10:375][269]LogPlayLevel: [PlayLevel] Compiling BP_GridTile before play...
+[2023.03.29-09.48.10:376][269]LogPlayLevel: [PlayLevel]   Compiling BP_OutOfBoundsTile as a dependent...
+[2023.03.29-09.48.10:447][269]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_AnimBlueprint_0 before play...
+[2023.03.29-09.48.10:492][269]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.03.29-09.48.10:495][269]LogPlayLevel: PlayLevel: Blueprint regeneration took 205 ms (4 blueprints)
+[2023.03.29-09.48.10:496][269]PIE: New page: PIE session: ThirdPersonMap (29-Mar-2023, 1:48:10 am)
+[2023.03.29-09.48.10:496][269]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.03.29-09.48.10:498][269]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.03.29-09.48.10:498][269]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002876s)
+[2023.03.29-09.48.10:498][269]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002922s)
+[2023.03.29-09.48.10:498][269]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.29-09.48.10:499][269]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.03.29-09.48.10:499][269]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.29-09.48.10:499][269]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.03.29-09.48.10:500][269]LogWorldPartition: Display: WorldPartition initialize took 526 us
+[2023.03.29-09.48.10:500][269]LogPlayLevel: PIE: World Init took: (0.001351s)
+[2023.03.29-09.48.10:535][269]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2023.03.29-09.48.10:536][269]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.03.29-09.48.10:536][269]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.29-09.48.10:536][269]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.29-09.48.10:536][269]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.29-09.48.10:536][269]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.29-09.48.10:536][269]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.29-09.48.10:536][269]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.29-09.48.10:536][269]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.29-09.48.10:536][269]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.29-09.48.10:536][269]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.29-09.48.10:536][269]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.29-09.48.10:536][269]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.29-09.48.10:538][269]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.29-09.48.10:589][269]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.03.29-09.48.10:589][269]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.29-09.48.10:589][269]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.29-09.48.10:589][269]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.29-09.48.10:590][269]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2023.03.29-09.48.10:590][269]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2023.03.29-09.48.10:591][269]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2023.03.29-09.48.10:591][269]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2023.03.29-09.48.10:591][269]LogInit: FAudioDevice initialized.
+[2023.03.29-09.48.10:591][269]LogAudio: Display: Audio Device (ID: 8) registered with world 'ThirdPersonMap'.
+[2023.03.29-09.48.10:606][269]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.03.29-09.48.10:607][269]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.03.29-05.48.10
+[2023.03.29-09.48.10:607][269]LogWorld: Bringing up level for play took: 0.000934
+[2023.03.29-09.48.10:609][269]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2023.03.29-09.48.10:611][269]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Dirt Collecting: 0/3
+[2023.03.29-09.48.10:611][269]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=392.013
+[2023.03.29-09.48.10:611][269]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.29-09.48.10:622][269]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 5
+[2023.03.29-09.48.10:622][269]PIE: Server logged in
+[2023.03.29-09.48.10:623][269]PIE: Play in editor total start time 0.334 seconds.
+[2023.03.29-09.48.12:245][417]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 0
+[2023.03.29-09.48.14:138][606]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 1
+[2023.03.29-09.48.14:979][693]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] Confuse!!
+[2023.03.29-09.48.15:827][778]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 1
+[2023.03.29-09.48.16:609][857]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] Confuse!!
+[2023.03.29-09.48.17:461][942]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 1
+[2023.03.29-09.48.18:244][ 22]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] Confuse!!
+[2023.03.29-09.48.19:089][106]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 1
+[2023.03.29-09.48.19:864][186]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] Confuse!!
+[2023.03.29-09.48.20:720][272]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 5
+[2023.03.29-09.48.22:721][471]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 10
+[2023.03.29-09.48.24:766][678]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 15
+[2023.03.29-09.48.26:811][884]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 20
+[2023.03.29-09.48.28:884][ 93]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 21
+[2023.03.29-09.48.30:889][275]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 22
+[2023.03.29-09.48.33:002][399]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 23
+[2023.03.29-09.48.35:119][526]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 24
+[2023.03.29-09.48.36:066][583]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] Confuse!!
+[2023.03.29-09.48.36:953][636]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 24
+[2023.03.29-09.48.37:732][683]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] Confuse!!
+[2023.03.29-09.48.38:619][736]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 24
+[2023.03.29-09.48.39:399][783]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] Confuse!!
+[2023.03.29-09.48.40:286][836]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 24
+[2023.03.29-09.48.41:066][883]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] Confuse!!
+[2023.03.29-09.48.41:952][936]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 24
+[2023.03.29-09.48.42:733][983]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] Confuse!!
+[2023.03.29-09.48.43:620][ 36]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 24
+[2023.03.29-09.48.44:399][ 83]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] Confuse!!
+[2023.03.29-09.48.45:286][136]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 24
+[2023.03.29-09.48.46:066][183]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] Confuse!!
+[2023.03.29-09.48.46:953][236]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 24
+[2023.03.29-09.48.47:733][283]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] Confuse!!
+[2023.03.29-09.48.48:619][336]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 24
+[2023.03.29-09.48.49:399][383]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] Confuse!!
+[2023.03.29-09.48.50:287][436]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 24
+[2023.03.29-09.48.51:066][483]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] Confuse!!
+[2023.03.29-09.48.51:942][535]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 24
+[2023.03.29-09.48.52:838][588]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] Confuse!!
+[2023.03.29-09.48.53:734][641]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 24
+[2023.03.29-09.48.54:518][688]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] Confuse!!
+[2023.03.29-09.48.55:412][741]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 24
+[2023.03.29-09.49.01:752][119]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-09.49.01:752][119]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.03.29-09.49.01:753][119]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.29-09.49.01:753][119]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-09.49.01:765][119]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.29-09.49.01:771][119]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-09.49.01:807][119]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-09.49.01:808][119]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.03.29-09.49.01:809][119]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.03.29-09.49.01:820][119]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2023.03.29-09.49.01:841][120]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2023.03.29-09.52.12:317][503]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.29-09.52.12:323][503]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.29-09.52.12:323][503]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.29-09.52.12:323][503]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.29-09.52.12:323][503]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.03.29-09.52.12:323][503]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.03.29-09.52.12:323][503]LogWorldPartition: Display: GetPartitionedActors took 33 us
+[2023.03.29-09.52.12:323][503]LogWorldPartition: Display: GenerateStreaming took 128 us
+[2023.03.29-09.52.12:323][503]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.03.29-09.52.12:327][503]LogPlayLevel: [PlayLevel] Compiling BP_Dottie before play...
+[2023.03.29-09.52.12:344][503]LogBlueprint: Error: [AssetLog] H:\UPennCGGT\Spring2023\CIS5680-GameDesignPracticum\UnrealProjects\dusty-dottie\DustyDottie\Content\ThirdPerson\Blueprints\BP_Dottie.uasset: [Compiler] This blueprint (self) is not a BP_GridManager_C, therefore ' Target ' must have a connection.
+[2023.03.29-09.52.12:436][503]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.03.29-09.52.12:439][503]LogPlayLevel: PlayLevel: Blueprint regeneration took 116 ms (1 blueprints)
+[2023.03.29-09.52.12:439][503]BlueprintLog: Warning: Blueprint failed to compile:  BP_Dottie
+[2023.03.29-09.52.12:440][503]LogCustomDialog: Dialog displayed:
+[2023.03.29-09.52.16:103][503]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2023.03.29-09.52.18:860][648]LogSlate: Window 'Message Log' being destroyed
+[2023.03.29-09.52.18:865][648]LogSlate: Window 'Message Log' being destroyed
+[2023.03.29-09.52.32:175][429]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.29-09.52.32:180][429]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.29-09.52.32:180][429]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.29-09.52.32:180][429]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.29-09.52.32:180][429]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.03.29-09.52.32:180][429]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.03.29-09.52.32:180][429]LogWorldPartition: Display: GetPartitionedActors took 34 us
+[2023.03.29-09.52.32:180][429]LogWorldPartition: Display: GenerateStreaming took 135 us
+[2023.03.29-09.52.32:180][429]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.03.29-09.52.32:183][429]LogPlayLevel: [PlayLevel] Compiling BP_Dottie before play...
+[2023.03.29-09.52.32:298][429]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2023.03.29-09.52.32:301][429]LogPlayLevel: PlayLevel: Blueprint regeneration took 121 ms (1 blueprints)
+[2023.03.29-09.52.32:301][429]PIE: New page: PIE session: ThirdPersonMap (29-Mar-2023, 1:52:32 am)
+[2023.03.29-09.52.32:301][429]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.03.29-09.52.32:304][429]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.03.29-09.52.32:304][429]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002538s)
+[2023.03.29-09.52.32:304][429]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002583s)
+[2023.03.29-09.52.32:304][429]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.29-09.52.32:305][429]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.03.29-09.52.32:305][429]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.29-09.52.32:305][429]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.03.29-09.52.32:305][429]LogWorldPartition: Display: WorldPartition initialize took 500 us
+[2023.03.29-09.52.32:305][429]LogPlayLevel: PIE: World Init took: (0.001260s)
+[2023.03.29-09.52.32:340][429]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2023.03.29-09.52.32:341][429]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.03.29-09.52.32:341][429]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.29-09.52.32:341][429]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.29-09.52.32:341][429]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.29-09.52.32:341][429]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.29-09.52.32:341][429]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.29-09.52.32:341][429]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.29-09.52.32:341][429]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.29-09.52.32:341][429]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.29-09.52.32:341][429]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.29-09.52.32:341][429]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.29-09.52.32:341][429]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.29-09.52.32:343][429]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.29-09.52.32:393][429]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.03.29-09.52.32:393][429]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.29-09.52.32:393][429]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.29-09.52.32:393][429]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.29-09.52.32:394][429]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2023.03.29-09.52.32:394][429]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2023.03.29-09.52.32:396][429]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2023.03.29-09.52.32:396][429]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2023.03.29-09.52.32:396][429]LogInit: FAudioDevice initialized.
+[2023.03.29-09.52.32:396][429]LogAudio: Display: Audio Device (ID: 9) registered with world 'ThirdPersonMap'.
+[2023.03.29-09.52.32:407][429]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.03.29-09.52.32:408][429]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2023.03.29-05.52.32
+[2023.03.29-09.52.32:408][429]LogWorld: Bringing up level for play took: 0.000952
+[2023.03.29-09.52.32:410][429]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2023.03.29-09.52.32:411][429]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Dirt Collecting: 0/3
+[2023.03.29-09.52.32:412][429]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=392.013
+[2023.03.29-09.52.32:412][429]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.29-09.52.32:423][429]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 5
+[2023.03.29-09.52.32:423][429]PIE: Server logged in
+[2023.03.29-09.52.32:423][429]PIE: Play in editor total start time 0.244 seconds.
+[2023.03.29-09.52.34:207][528]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 0
+[2023.03.29-09.52.36:144][643]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 1
+[2023.03.29-09.52.36:987][694]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] Confuse!!
+[2023.03.29-09.52.41:165][939]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-09.52.41:165][939]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.03.29-09.52.41:165][939]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.29-09.52.41:165][939]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-09.52.41:177][939]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.29-09.52.41:183][939]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-09.52.41:219][939]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-09.52.41:219][939]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.03.29-09.52.41:221][939]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.03.29-09.52.41:229][939]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2023.03.29-09.52.41:254][940]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2023.03.29-09.54.51:521][732]LogEditorTransaction: Undo Move Node
+[2023.03.29-09.54.51:945][744]LogEditorTransaction: Undo Move Node
+[2023.03.29-09.54.52:312][762]LogEditorTransaction: Undo Move Node
+[2023.03.29-09.54.52:590][777]LogEditorTransaction: Undo Move Node
+[2023.03.29-09.54.52:819][789]LogEditorTransaction: Undo Add Node
+[2023.03.29-09.54.53:084][803]LogEditorTransaction: Undo Create Pin Link
+[2023.03.29-09.54.53:381][819]LogEditorTransaction: Undo Add Node
+[2023.03.29-09.54.53:693][836]LogEditorTransaction: Undo Move Node
+[2023.03.29-09.54.53:988][852]LogEditorTransaction: Undo Move Node
+[2023.03.29-09.54.54:333][871]LogEditorTransaction: Undo Move Nodes
+[2023.03.29-09.54.54:795][897]LogEditorTransaction: Undo Move Nodes
+[2023.03.29-09.54.55:040][910]LogEditorTransaction: Undo Delete current selection
+[2023.03.29-09.54.55:320][925]LogEditorTransaction: Undo Delete current selection
+[2023.03.29-09.54.55:649][943]LogEditorTransaction: Undo Create Pin Link
+[2023.03.29-09.54.56:197][974]LogEditorTransaction: Undo Create Pin Link
+[2023.03.29-09.54.56:427][986]LogEditorTransaction: Undo Create Pin Link
+[2023.03.29-09.54.56:640][997]LogEditorTransaction: Undo Add Node
+[2023.03.29-09.54.56:923][ 12]LogEditorTransaction: Undo Add Node
+[2023.03.29-09.54.57:455][ 42]LogEditorTransaction: Undo Add Node
+[2023.03.29-09.54.57:884][ 66]LogEditorTransaction: Undo Move Node
+[2023.03.29-09.54.58:312][ 90]LogEditorTransaction: Undo Delete current selection
+[2023.03.29-09.58.39:681][246]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.29-09.58.39:687][246]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.29-09.58.39:687][246]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.29-09.58.39:687][246]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.29-09.58.39:687][246]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.03.29-09.58.39:687][246]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.03.29-09.58.39:687][246]LogWorldPartition: Display: GetPartitionedActors took 35 us
+[2023.03.29-09.58.39:687][246]LogWorldPartition: Display: GenerateStreaming took 131 us
+[2023.03.29-09.58.39:687][246]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.03.29-09.58.39:690][246]LogPlayLevel: [PlayLevel] Compiling BP_Dottie before play...
+[2023.03.29-09.58.39:824][246]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2023.03.29-09.58.39:828][246]LogPlayLevel: PlayLevel: Blueprint regeneration took 141 ms (1 blueprints)
+[2023.03.29-09.58.39:828][246]PIE: New page: PIE session: ThirdPersonMap (29-Mar-2023, 1:58:39 am)
+[2023.03.29-09.58.39:829][246]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.03.29-09.58.39:831][246]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.03.29-09.58.39:831][246]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002758s)
+[2023.03.29-09.58.39:831][246]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002807s)
+[2023.03.29-09.58.39:831][246]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.29-09.58.39:831][246]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.03.29-09.58.39:832][246]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.29-09.58.39:832][246]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.03.29-09.58.39:832][246]LogWorldPartition: Display: WorldPartition initialize took 600 us
+[2023.03.29-09.58.39:832][246]LogPlayLevel: PIE: World Init took: (0.001495s)
+[2023.03.29-09.58.39:867][246]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.03.29-09.58.39:868][246]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.03.29-09.58.39:868][246]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.29-09.58.39:868][246]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.29-09.58.39:868][246]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.29-09.58.39:868][246]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.29-09.58.39:868][246]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.29-09.58.39:868][246]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.29-09.58.39:868][246]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.29-09.58.39:868][246]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.29-09.58.39:869][246]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.29-09.58.39:869][246]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.29-09.58.39:869][246]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.29-09.58.39:870][246]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.29-09.58.39:921][246]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.03.29-09.58.39:922][246]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.29-09.58.39:922][246]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.29-09.58.39:922][246]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.29-09.58.39:923][246]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2023.03.29-09.58.39:923][246]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2023.03.29-09.58.39:925][246]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2023.03.29-09.58.39:925][246]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2023.03.29-09.58.39:925][246]LogInit: FAudioDevice initialized.
+[2023.03.29-09.58.39:925][246]LogAudio: Display: Audio Device (ID: 10) registered with world 'ThirdPersonMap'.
+[2023.03.29-09.58.39:933][246]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.03.29-09.58.39:935][246]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2023.03.29-05.58.39
+[2023.03.29-09.58.39:935][246]LogWorld: Bringing up level for play took: 0.000943
+[2023.03.29-09.58.39:936][246]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2023.03.29-09.58.39:938][246]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Dirt Collecting: 0/3
+[2023.03.29-09.58.39:938][246]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=392.013
+[2023.03.29-09.58.39:938][246]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.29-09.58.39:948][246]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 5
+[2023.03.29-09.58.39:949][246]PIE: Server logged in
+[2023.03.29-09.58.39:949][246]PIE: Play in editor total start time 0.264 seconds.
+[2023.03.29-09.58.41:704][343]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 0
+[2023.03.29-09.58.47:909][710]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 1
+[2023.03.29-09.58.48:752][761]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] Confuse!!
+[2023.03.29-09.58.49:636][814]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] -1
+[2023.03.29-09.58.53:216][ 23]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-09.58.53:216][ 23]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.03.29-09.58.53:216][ 23]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.29-09.58.53:216][ 23]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-09.58.53:226][ 23]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.29-09.58.53:232][ 23]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-09.58.53:269][ 23]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-09.58.53:269][ 23]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.03.29-09.58.53:270][ 23]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.03.29-09.58.53:279][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2023.03.29-09.58.53:299][ 24]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2023.03.29-09.59.19:726][596]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_Dottie
+[2023.03.29-09.59.19:726][596]LogSavePackage: Moving '../../../../../UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/DustyDottie/Saved/BP_Dottie731E457846535F052AD3AD8AA90C82C0.tmp' to '../../../../../UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/DustyDottie/Content/ThirdPerson/Blueprints/BP_Dottie.uasset'
+[2023.03.29-09.59.19:741][596]AssetCheck: New page: Asset Save: BP_Dottie
+[2023.03.29-09.59.19:741][596]LogContentValidation: Display: Validating Blueprint /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie
+[2023.03.29-09.59.22:160][732]LogSavePackage: Moving output files for package: /Game/TileSystem/BP_GridTile
+[2023.03.29-09.59.22:161][732]LogSavePackage: Moving '../../../../../UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/DustyDottie/Saved/BP_GridTileFCFDEF714124266A9BC5BD985728ED15.tmp' to '../../../../../UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/DustyDottie/Content/TileSystem/BP_GridTile.uasset'
+[2023.03.29-09.59.22:174][732]AssetCheck: New page: Asset Save: BP_GridTile
+[2023.03.29-09.59.22:175][732]LogContentValidation: Display: Validating Blueprint /Game/TileSystem/BP_GridTile.BP_GridTile
+[2023.03.29-09.59.42:892][962]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.29-09.59.42:898][962]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.29-09.59.42:898][962]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.29-09.59.42:898][962]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.29-09.59.42:898][962]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.03.29-09.59.42:898][962]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.03.29-09.59.42:898][962]LogWorldPartition: Display: GetPartitionedActors took 36 us
+[2023.03.29-09.59.42:898][962]LogWorldPartition: Display: GenerateStreaming took 129 us
+[2023.03.29-09.59.42:898][962]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.29-09.59.42:898][962]PIE: New page: PIE session: ThirdPersonMap (29-Mar-2023, 1:59:42 am)
+[2023.03.29-09.59.42:898][962]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.03.29-09.59.42:900][962]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.03.29-09.59.42:901][962]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002533s)
+[2023.03.29-09.59.42:901][962]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002576s)
+[2023.03.29-09.59.42:901][962]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.29-09.59.42:901][962]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.03.29-09.59.42:901][962]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.29-09.59.42:901][962]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.03.29-09.59.42:902][962]LogWorldPartition: Display: WorldPartition initialize took 535 us
+[2023.03.29-09.59.42:902][962]LogPlayLevel: PIE: World Init took: (0.001298s)
+[2023.03.29-09.59.42:936][962]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.03.29-09.59.42:941][962]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.03.29-09.59.42:941][962]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.29-09.59.42:941][962]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.29-09.59.42:941][962]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.29-09.59.42:941][962]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.29-09.59.42:941][962]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.29-09.59.42:941][962]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.29-09.59.42:941][962]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.29-09.59.42:941][962]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.29-09.59.42:941][962]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.29-09.59.42:941][962]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.29-09.59.42:941][962]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.29-09.59.42:944][962]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.29-09.59.42:993][962]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.03.29-09.59.42:993][962]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.29-09.59.42:993][962]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.29-09.59.42:993][962]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.29-09.59.42:994][962]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2023.03.29-09.59.42:994][962]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2023.03.29-09.59.42:996][962]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2023.03.29-09.59.42:996][962]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2023.03.29-09.59.42:996][962]LogInit: FAudioDevice initialized.
+[2023.03.29-09.59.42:996][962]LogAudio: Display: Audio Device (ID: 11) registered with world 'ThirdPersonMap'.
+[2023.03.29-09.59.43:005][962]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.03.29-09.59.43:005][962]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2023.03.29-05.59.43
+[2023.03.29-09.59.43:006][962]LogWorld: Bringing up level for play took: 0.000912
+[2023.03.29-09.59.43:007][962]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2023.03.29-09.59.43:008][962]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Dirt Collecting: 0/3
+[2023.03.29-09.59.43:009][962]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=392.013
+[2023.03.29-09.59.43:009][962]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.29-09.59.43:019][962]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 5
+[2023.03.29-09.59.43:020][962]PIE: Server logged in
+[2023.03.29-09.59.43:020][962]PIE: Play in editor total start time 0.123 seconds.
+[2023.03.29-09.59.44:910][ 69]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 0
+[2023.03.29-09.59.46:866][186]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 1
+[2023.03.29-09.59.47:711][237]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] Confuse!!
+[2023.03.29-09.59.47:711][237]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 535
+[2023.03.29-09.59.47:711][237]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ReceiveActorBeginOverlap
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ExecuteUbergraph_BP_Dottie
+	Function /Game/TileSystem/BP_GridTile.BP_GridTile_C:HandleLadybugCollision
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:Event Impediment
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ExecuteUbergraph_BP_Dottie
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ConfuseLadybug
+
+[2023.03.29-09.59.47:721][237]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-09.59.47:724][237]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-09.59.53:059][237]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-09.59.53:062][237]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-09.59.54:114][237]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-09.59.54:117][237]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-09.59.54:650][237]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-09.59.54:652][237]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-09.59.55:141][237]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 259
+[2023.03.29-09.59.55:141][237]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ReceiveTick
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ExecuteUbergraph_BP_Dottie
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:Move Ladybug Impediment
+
+[2023.03.29-09.59.55:148][237]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-09.59.55:151][237]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.00.14:892][238]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 259
+[2023.03.29-10.00.14:892][238]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ReceiveTick
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ExecuteUbergraph_BP_Dottie
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:Move Ladybug Impediment
+
+[2023.03.29-10.00.14:906][238]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.00.14:908][238]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.00.16:481][239]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 259
+[2023.03.29-10.00.16:481][239]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ReceiveTick
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ExecuteUbergraph_BP_Dottie
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:Move Ladybug Impediment
+
+[2023.03.29-10.00.16:496][239]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.00.16:500][239]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.00.22:541][239]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] -1
+[2023.03.29-10.00.29:311][643]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-10.00.29:311][643]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.03.29-10.00.29:312][643]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.29-10.00.29:312][643]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-10.00.29:322][643]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.29-10.00.29:328][643]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-10.00.29:364][643]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.29-10.00.29:364][643]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.03.29-10.00.29:365][643]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.03.29-10.00.29:371][643]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-10.00.29:376][643]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2023.03.29-10.00.29:394][644]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2023.03.29-10.00.37:381][116]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.29-10.00.37:388][116]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.29-10.00.37:388][116]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.29-10.00.37:388][116]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.29-10.00.37:388][116]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.03.29-10.00.37:388][116]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.03.29-10.00.37:388][116]LogWorldPartition: Display: GetPartitionedActors took 39 us
+[2023.03.29-10.00.37:388][116]LogWorldPartition: Display: GenerateStreaming took 154 us
+[2023.03.29-10.00.37:388][116]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.29-10.00.37:388][116]PIE: New page: PIE session: ThirdPersonMap (29-Mar-2023, 2:00:37 am)
+[2023.03.29-10.00.37:388][116]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.03.29-10.00.37:391][116]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.03.29-10.00.37:391][116]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002649s)
+[2023.03.29-10.00.37:391][116]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002693s)
+[2023.03.29-10.00.37:391][116]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.29-10.00.37:391][116]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.03.29-10.00.37:392][116]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.29-10.00.37:392][116]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.03.29-10.00.37:392][116]LogWorldPartition: Display: WorldPartition initialize took 605 us
+[2023.03.29-10.00.37:392][116]LogPlayLevel: PIE: World Init took: (0.001492s)
+[2023.03.29-10.00.37:428][116]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2023.03.29-10.00.37:430][116]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2023.03.29-10.00.37:430][116]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.29-10.00.37:430][116]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.29-10.00.37:430][116]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.29-10.00.37:430][116]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.29-10.00.37:430][116]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.29-10.00.37:430][116]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.29-10.00.37:430][116]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.29-10.00.37:430][116]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.29-10.00.37:431][116]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.29-10.00.37:431][116]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.29-10.00.37:431][116]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.29-10.00.37:433][116]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.29-10.00.37:482][116]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.03.29-10.00.37:482][116]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.29-10.00.37:482][116]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.29-10.00.37:482][116]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.29-10.00.37:482][116]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2023.03.29-10.00.37:482][116]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2023.03.29-10.00.37:484][116]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2023.03.29-10.00.37:484][116]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2023.03.29-10.00.37:484][116]LogInit: FAudioDevice initialized.
+[2023.03.29-10.00.37:484][116]LogAudio: Display: Audio Device (ID: 12) registered with world 'ThirdPersonMap'.
+[2023.03.29-10.00.37:493][116]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.03.29-10.00.37:493][116]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2023.03.29-06.00.37
+[2023.03.29-10.00.37:494][116]LogWorld: Bringing up level for play took: 0.000927
+[2023.03.29-10.00.37:495][116]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2023.03.29-10.00.37:496][116]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Dirt Collecting: 0/3
+[2023.03.29-10.00.37:496][116]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=392.013
+[2023.03.29-10.00.37:496][116]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.29-10.00.37:507][116]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 5
+[2023.03.29-10.00.37:507][116]PIE: Server logged in
+[2023.03.29-10.00.37:508][116]PIE: Play in editor total start time 0.121 seconds.
+[2023.03.29-10.00.39:393][224]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 0
+[2023.03.29-10.00.41:332][340]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 1
+[2023.03.29-10.00.42:176][391]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] Confuse!!
+[2023.03.29-10.00.42:177][391]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 535
+[2023.03.29-10.00.42:177][391]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ReceiveActorBeginOverlap
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ExecuteUbergraph_BP_Dottie
+	Function /Game/TileSystem/BP_GridTile.BP_GridTile_C:HandleLadybugCollision
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:Event Impediment
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ExecuteUbergraph_BP_Dottie
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ConfuseLadybug
+
+[2023.03.29-10.00.42:187][391]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_10.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.00.42:191][391]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_10.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.00.51:866][391]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 259
+[2023.03.29-10.00.51:866][391]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ReceiveTick
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ExecuteUbergraph_BP_Dottie
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:Move Ladybug Impediment
+
+[2023.03.29-10.00.51:878][391]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_10.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.00.51:881][391]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_10.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.00.56:629][392]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 259
+[2023.03.29-10.00.56:629][392]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ReceiveTick
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ExecuteUbergraph_BP_Dottie
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:Move Ladybug Impediment
+
+[2023.03.29-10.00.56:637][392]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_10.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.00.56:640][392]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_10.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.00.57:535][393]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 259
+[2023.03.29-10.00.57:535][393]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ReceiveTick
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ExecuteUbergraph_BP_Dottie
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:Move Ladybug Impediment
+
+[2023.03.29-10.00.57:549][393]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_10.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.00.57:552][393]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_10.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.00.58:288][393]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_Update Target Location', from offset 458
+[2023.03.29-10.00.58:288][393]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ReceiveTick
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ExecuteUbergraph_BP_Dottie
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:Move Ladybug Impediment
+
+[2023.03.29-10.00.58:296][393]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_10.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.00.58:299][393]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_10.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.01.17:581][393]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] -1
+[2023.03.29-10.01.17:621][393]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-10.01.17:621][393]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.03.29-10.01.17:621][393]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.29-10.01.17:621][393]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-10.01.17:629][393]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.29-10.01.17:637][393]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-10.01.17:673][393]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.29-10.01.17:673][393]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.03.29-10.01.17:675][393]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.03.29-10.01.17:682][393]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-10.01.17:685][393]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2023.03.29-10.01.17:706][394]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2023.03.29-10.01.29:813][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2023.03.29-10.01.29:818][ 97]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/O4/T4T0G8LQF7AY1B02QGQ3K1_Auto2
+[2023.03.29-10.01.29:818][ 97]LogSavePackage: Moving '../../../../../UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/DustyDottie/Saved/T4T0G8LQF7AY1B02QGQ3K1_Auto2EE439BD64353EB52B58BB8A4A6AD28EB.tmp' to '../../../../../UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/DustyDottie/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/O4/T4T0G8LQF7AY1B02QGQ3K1_Auto2.uasset'
+[2023.03.29-10.01.29:819][ 97]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.044
+[2023.03.29-10.01.29:819][ 97]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.044
+[2023.03.29-10.01.29:820][ 97]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_Dottie] ([2] browsable assets)...
+[2023.03.29-10.01.29:845][ 97]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie]
+[2023.03.29-10.01.29:846][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_Dottie]
+[2023.03.29-10.01.29:908][ 97]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_Dottie_Auto2
+[2023.03.29-10.01.29:908][ 97]LogSavePackage: Moving '../../../../../UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/DustyDottie/Saved/BP_Dottie_Auto21B1B363342B019B8E88D7E9327AE8D61.tmp' to '../../../../../UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/DustyDottie/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_Dottie_Auto2.uasset'
+[2023.03.29-10.01.29:909][ 97]LogFileHelpers: Auto-saving content packages took 0.091
+[2023.03.29-10.01.33:063][283]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.29-10.01.33:069][283]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.29-10.01.33:069][283]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.29-10.01.33:069][283]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.29-10.01.33:069][283]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.03.29-10.01.33:069][283]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.03.29-10.01.33:069][283]LogWorldPartition: Display: GetPartitionedActors took 40 us
+[2023.03.29-10.01.33:070][283]LogWorldPartition: Display: GenerateStreaming took 143 us
+[2023.03.29-10.01.33:070][283]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.03.29-10.01.33:072][283]LogPlayLevel: [PlayLevel] Compiling BP_Dottie before play...
+[2023.03.29-10.01.33:205][283]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.03.29-10.01.33:211][283]LogPlayLevel: PlayLevel: Blueprint regeneration took 141 ms (1 blueprints)
+[2023.03.29-10.01.33:211][283]PIE: New page: PIE session: ThirdPersonMap (29-Mar-2023, 2:01:33 am)
+[2023.03.29-10.01.33:211][283]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.03.29-10.01.33:213][283]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.03.29-10.01.33:213][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002720s)
+[2023.03.29-10.01.33:213][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002772s)
+[2023.03.29-10.01.33:213][283]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.29-10.01.33:214][283]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.03.29-10.01.33:214][283]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.29-10.01.33:214][283]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.03.29-10.01.33:215][283]LogWorldPartition: Display: WorldPartition initialize took 576 us
+[2023.03.29-10.01.33:215][283]LogPlayLevel: PIE: World Init took: (0.001404s)
+[2023.03.29-10.01.33:250][283]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.03.29-10.01.33:251][283]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.03.29-10.01.33:251][283]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.29-10.01.33:251][283]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.29-10.01.33:251][283]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.29-10.01.33:251][283]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.29-10.01.33:251][283]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.29-10.01.33:251][283]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.29-10.01.33:251][283]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.29-10.01.33:251][283]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.29-10.01.33:252][283]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.29-10.01.33:252][283]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.29-10.01.33:252][283]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.29-10.01.33:254][283]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.29-10.01.33:304][283]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.03.29-10.01.33:304][283]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.29-10.01.33:304][283]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.29-10.01.33:304][283]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.29-10.01.33:304][283]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2023.03.29-10.01.33:304][283]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2023.03.29-10.01.33:306][283]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2023.03.29-10.01.33:306][283]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2023.03.29-10.01.33:306][283]LogInit: FAudioDevice initialized.
+[2023.03.29-10.01.33:306][283]LogAudio: Display: Audio Device (ID: 13) registered with world 'ThirdPersonMap'.
+[2023.03.29-10.01.33:321][283]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.03.29-10.01.33:322][283]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2023.03.29-06.01.33
+[2023.03.29-10.01.33:322][283]LogWorld: Bringing up level for play took: 0.000942
+[2023.03.29-10.01.33:324][283]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2023.03.29-10.01.33:325][283]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Dirt Collecting: 0/3
+[2023.03.29-10.01.33:325][283]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=392.013
+[2023.03.29-10.01.33:325][283]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.29-10.01.33:336][283]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 5
+[2023.03.29-10.01.33:336][283]PIE: Server logged in
+[2023.03.29-10.01.33:337][283]PIE: Play in editor total start time 0.269 seconds.
+[2023.03.29-10.01.35:094][381]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 0
+[2023.03.29-10.01.37:051][498]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 1
+[2023.03.29-10.01.37:895][549]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] Confuse!!
+[2023.03.29-10.01.37:896][549]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 535
+[2023.03.29-10.01.37:896][549]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ReceiveActorBeginOverlap
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ExecuteUbergraph_BP_Dottie
+	Function /Game/TileSystem/BP_GridTile.BP_GridTile_C:HandleLadybugCollision
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:Event Impediment
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ExecuteUbergraph_BP_Dottie
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ConfuseLadybug
+
+[2023.03.29-10.01.37:905][549]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_11.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.01.37:907][549]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_11.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.01.40:074][549]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 259
+[2023.03.29-10.01.40:074][549]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ReceiveTick
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ExecuteUbergraph_BP_Dottie
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:Move Ladybug Impediment
+
+[2023.03.29-10.01.40:087][549]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_11.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.01.40:090][549]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_11.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.01.40:902][550]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 259
+[2023.03.29-10.01.40:902][550]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ReceiveTick
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ExecuteUbergraph_BP_Dottie
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:Move Ladybug Impediment
+
+[2023.03.29-10.01.40:916][550]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_11.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.01.40:920][550]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_11.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.01.41:566][551]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 259
+[2023.03.29-10.01.41:566][551]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ReceiveTick
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ExecuteUbergraph_BP_Dottie
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:Move Ladybug Impediment
+
+[2023.03.29-10.01.41:581][551]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_11.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.01.41:584][551]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_11.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.01.42:408][551]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_Update Target Location', from offset 474
+[2023.03.29-10.01.42:408][551]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ReceiveTick
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ExecuteUbergraph_BP_Dottie
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:Move Ladybug Impediment
+
+[2023.03.29-10.01.42:416][551]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_11.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.01.42:418][551]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_11.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.01.52:963][551]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_11.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.01.52:966][551]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_11.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.01.54:556][551]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_11.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.01.54:559][551]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_11.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.01.55:368][551]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_11.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.01.55:371][551]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_11.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.02.14:582][551]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_11.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.02.14:584][551]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_11.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.02.15:160][551]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_11.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.02.15:164][551]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_11.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.02.16:099][551]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 1
+[2023.03.29-10.02.16:104][551]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_11.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.02.16:106][551]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_11.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.02.18:565][599]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] Confuse!!
+[2023.03.29-10.02.18:565][599]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 535
+[2023.03.29-10.02.18:565][599]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ReceiveActorBeginOverlap
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ExecuteUbergraph_BP_Dottie
+	Function /Game/TileSystem/BP_GridTile.BP_GridTile_C:HandleLadybugCollision
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:Event Impediment
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ExecuteUbergraph_BP_Dottie
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ConfuseLadybug
+
+[2023.03.29-10.02.18:577][599]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_11.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.02.18:580][599]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_11.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.02.24:084][599]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-10.02.24:084][599]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.03.29-10.02.24:085][599]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.29-10.02.24:085][599]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-10.02.24:094][599]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.29-10.02.24:102][599]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-10.02.24:140][599]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-10.02.24:141][599]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.03.29-10.02.24:143][599]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.03.29-10.02.24:153][599]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2023.03.29-10.02.24:176][600]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2023.03.29-10.07.22:849][487]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.29-10.07.22:854][487]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.29-10.07.22:854][487]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.29-10.07.22:854][487]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.29-10.07.22:854][487]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.03.29-10.07.22:854][487]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.03.29-10.07.22:854][487]LogWorldPartition: Display: GetPartitionedActors took 33 us
+[2023.03.29-10.07.22:854][487]LogWorldPartition: Display: GenerateStreaming took 134 us
+[2023.03.29-10.07.22:855][487]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.03.29-10.07.22:858][487]LogPlayLevel: [PlayLevel] Compiling BP_Dottie before play...
+[2023.03.29-10.07.22:988][487]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2023.03.29-10.07.22:994][487]LogPlayLevel: PlayLevel: Blueprint regeneration took 139 ms (1 blueprints)
+[2023.03.29-10.07.22:994][487]PIE: New page: PIE session: ThirdPersonMap (29-Mar-2023, 2:07:22 am)
+[2023.03.29-10.07.22:994][487]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.03.29-10.07.22:996][487]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.03.29-10.07.22:996][487]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002728s)
+[2023.03.29-10.07.22:996][487]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002779s)
+[2023.03.29-10.07.22:996][487]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.29-10.07.22:997][487]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.03.29-10.07.22:997][487]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.29-10.07.22:997][487]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.03.29-10.07.22:998][487]LogWorldPartition: Display: WorldPartition initialize took 599 us
+[2023.03.29-10.07.22:998][487]LogPlayLevel: PIE: World Init took: (0.001449s)
+[2023.03.29-10.07.23:033][487]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.03.29-10.07.23:034][487]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2023.03.29-10.07.23:034][487]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.29-10.07.23:034][487]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.29-10.07.23:034][487]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.29-10.07.23:034][487]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.29-10.07.23:034][487]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.29-10.07.23:034][487]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.29-10.07.23:034][487]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.29-10.07.23:034][487]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.29-10.07.23:034][487]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.29-10.07.23:034][487]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.29-10.07.23:034][487]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.29-10.07.23:037][487]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.29-10.07.23:087][487]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.03.29-10.07.23:087][487]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.29-10.07.23:087][487]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.29-10.07.23:087][487]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.29-10.07.23:088][487]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2023.03.29-10.07.23:088][487]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2023.03.29-10.07.23:090][487]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2023.03.29-10.07.23:090][487]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2023.03.29-10.07.23:090][487]LogInit: FAudioDevice initialized.
+[2023.03.29-10.07.23:090][487]LogAudio: Display: Audio Device (ID: 14) registered with world 'ThirdPersonMap'.
+[2023.03.29-10.07.23:104][487]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.03.29-10.07.23:105][487]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2023.03.29-06.07.23
+[2023.03.29-10.07.23:105][487]LogWorld: Bringing up level for play took: 0.000997
+[2023.03.29-10.07.23:107][487]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2023.03.29-10.07.23:109][487]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Dirt Collecting: 0/3
+[2023.03.29-10.07.23:109][487]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=392.013
+[2023.03.29-10.07.23:109][487]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.29-10.07.23:119][487]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 5
+[2023.03.29-10.07.23:119][487]PIE: Server logged in
+[2023.03.29-10.07.23:120][487]PIE: Play in editor total start time 0.267 seconds.
+[2023.03.29-10.07.25:510][620]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 0
+[2023.03.29-10.07.27:466][737]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 1
+[2023.03.29-10.07.28:310][788]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] Confuse!!
+[2023.03.29-10.07.28:311][788]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 366
+[2023.03.29-10.07.28:311][788]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ReceiveActorBeginOverlap
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ExecuteUbergraph_BP_Dottie
+	Function /Game/TileSystem/BP_GridTile.BP_GridTile_C:HandleLadybugCollision
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:Event Impediment
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ExecuteUbergraph_BP_Dottie
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ConfuseLadybug
+
+[2023.03.29-10.07.28:314][788]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_12.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.07.28:318][788]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_12.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.08.05:416][788]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-10.08.05:416][788]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.03.29-10.08.05:416][788]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.29-10.08.05:417][788]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-10.08.05:429][788]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.29-10.08.05:436][788]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-10.08.05:473][788]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-10.08.05:474][788]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.03.29-10.08.05:475][788]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.03.29-10.08.05:485][788]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2023.03.29-10.08.05:507][789]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2023.03.29-10.08.07:572][911]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.29-10.08.07:577][911]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.29-10.08.07:577][911]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.29-10.08.07:577][911]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.29-10.08.07:577][911]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.03.29-10.08.07:577][911]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.03.29-10.08.07:577][911]LogWorldPartition: Display: GetPartitionedActors took 40 us
+[2023.03.29-10.08.07:577][911]LogWorldPartition: Display: GenerateStreaming took 132 us
+[2023.03.29-10.08.07:577][911]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.29-10.08.07:577][911]PIE: New page: PIE session: ThirdPersonMap (29-Mar-2023, 2:08:07 am)
+[2023.03.29-10.08.07:577][911]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.03.29-10.08.07:581][911]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.03.29-10.08.07:581][911]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002513s)
+[2023.03.29-10.08.07:581][911]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002557s)
+[2023.03.29-10.08.07:581][911]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.29-10.08.07:581][911]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.03.29-10.08.07:582][911]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.29-10.08.07:582][911]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.03.29-10.08.07:582][911]LogWorldPartition: Display: WorldPartition initialize took 529 us
+[2023.03.29-10.08.07:582][911]LogPlayLevel: PIE: World Init took: (0.001293s)
+[2023.03.29-10.08.07:617][911]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2023.03.29-10.08.07:618][911]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2023.03.29-10.08.07:618][911]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.29-10.08.07:618][911]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.29-10.08.07:618][911]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.29-10.08.07:618][911]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.29-10.08.07:618][911]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.29-10.08.07:618][911]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.29-10.08.07:618][911]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.29-10.08.07:618][911]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.29-10.08.07:619][911]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.29-10.08.07:619][911]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.29-10.08.07:619][911]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.29-10.08.07:621][911]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.29-10.08.07:670][911]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.03.29-10.08.07:671][911]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.29-10.08.07:671][911]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.29-10.08.07:671][911]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.29-10.08.07:671][911]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2023.03.29-10.08.07:671][911]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2023.03.29-10.08.07:673][911]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2023.03.29-10.08.07:673][911]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2023.03.29-10.08.07:673][911]LogInit: FAudioDevice initialized.
+[2023.03.29-10.08.07:673][911]LogAudio: Display: Audio Device (ID: 15) registered with world 'ThirdPersonMap'.
+[2023.03.29-10.08.07:683][911]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.03.29-10.08.07:684][911]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2023.03.29-06.08.07
+[2023.03.29-10.08.07:684][911]LogWorld: Bringing up level for play took: 0.001347
+[2023.03.29-10.08.07:687][911]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2023.03.29-10.08.07:688][911]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Dirt Collecting: 0/3
+[2023.03.29-10.08.07:689][911]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=392.013
+[2023.03.29-10.08.07:689][911]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.29-10.08.07:700][911]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 5
+[2023.03.29-10.08.07:700][911]PIE: Server logged in
+[2023.03.29-10.08.07:701][911]PIE: Play in editor total start time 0.124 seconds.
+[2023.03.29-10.08.09:589][ 19]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 0
+[2023.03.29-10.08.11:977][162]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 1
+[2023.03.29-10.08.12:821][213]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] Confuse!!
+[2023.03.29-10.08.12:821][213]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 98
+[2023.03.29-10.08.12:821][213]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ReceiveActorBeginOverlap
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ExecuteUbergraph_BP_Dottie
+	Function /Game/TileSystem/BP_GridTile.BP_GridTile_C:HandleLadybugCollision
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:Event Impediment
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ExecuteUbergraph_BP_Dottie
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ConfuseLadybug
+
+[2023.03.29-10.08.12:825][213]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_13.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.08.12:829][213]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_13.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.08.38:300][213]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_13.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.08.38:303][213]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_13.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.08.50:514][213]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 98
+[2023.03.29-10.08.50:514][213]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ReceiveActorBeginOverlap
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ExecuteUbergraph_BP_Dottie
+	Function /Game/TileSystem/BP_GridTile.BP_GridTile_C:HandleLadybugCollision
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:Event Impediment
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ExecuteUbergraph_BP_Dottie
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ConfuseLadybug
+
+[2023.03.29-10.08.50:519][213]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_13.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.08.50:522][213]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_13.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.09.01:031][213]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-10.09.01:031][213]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.03.29-10.09.01:032][213]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.29-10.09.01:032][213]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-10.09.01:040][213]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.29-10.09.01:046][213]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-10.09.01:082][213]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.29-10.09.01:082][213]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.03.29-10.09.01:085][213]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.03.29-10.09.01:092][213]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-10.09.01:095][213]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.03.29-10.09.01:117][214]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2023.03.29-10.09.23:416][535]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.29-10.09.23:422][535]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.29-10.09.23:422][535]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.29-10.09.23:422][535]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.29-10.09.23:422][535]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.03.29-10.09.23:422][535]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.03.29-10.09.23:423][535]LogWorldPartition: Display: GetPartitionedActors took 39 us
+[2023.03.29-10.09.23:423][535]LogWorldPartition: Display: GenerateStreaming took 148 us
+[2023.03.29-10.09.23:423][535]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.03.29-10.09.23:426][535]LogPlayLevel: [PlayLevel] Compiling BP_Dottie before play...
+[2023.03.29-10.09.23:545][535]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2023.03.29-10.09.23:549][535]LogPlayLevel: PlayLevel: Blueprint regeneration took 126 ms (1 blueprints)
+[2023.03.29-10.09.23:549][535]PIE: New page: PIE session: ThirdPersonMap (29-Mar-2023, 2:09:23 am)
+[2023.03.29-10.09.23:549][535]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.03.29-10.09.23:552][535]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.03.29-10.09.23:552][535]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002569s)
+[2023.03.29-10.09.23:552][535]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002616s)
+[2023.03.29-10.09.23:552][535]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.29-10.09.23:552][535]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.03.29-10.09.23:552][535]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.29-10.09.23:552][535]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.03.29-10.09.23:553][535]LogWorldPartition: Display: WorldPartition initialize took 512 us
+[2023.03.29-10.09.23:553][535]LogPlayLevel: PIE: World Init took: (0.001295s)
+[2023.03.29-10.09.23:588][535]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.03.29-10.09.23:589][535]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2023.03.29-10.09.23:589][535]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.29-10.09.23:589][535]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.29-10.09.23:589][535]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.29-10.09.23:589][535]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.29-10.09.23:589][535]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.29-10.09.23:589][535]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.29-10.09.23:589][535]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.29-10.09.23:589][535]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.29-10.09.23:589][535]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.29-10.09.23:589][535]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.29-10.09.23:589][535]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.29-10.09.23:591][535]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.29-10.09.23:640][535]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.03.29-10.09.23:640][535]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.29-10.09.23:640][535]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.29-10.09.23:640][535]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.29-10.09.23:641][535]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2023.03.29-10.09.23:641][535]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2023.03.29-10.09.23:642][535]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2023.03.29-10.09.23:642][535]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2023.03.29-10.09.23:642][535]LogInit: FAudioDevice initialized.
+[2023.03.29-10.09.23:642][535]LogAudio: Display: Audio Device (ID: 16) registered with world 'ThirdPersonMap'.
+[2023.03.29-10.09.23:655][535]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.03.29-10.09.23:656][535]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2023.03.29-06.09.23
+[2023.03.29-10.09.23:656][535]LogWorld: Bringing up level for play took: 0.001028
+[2023.03.29-10.09.23:658][535]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2023.03.29-10.09.23:659][535]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Dirt Collecting: 0/3
+[2023.03.29-10.09.23:659][535]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=392.013
+[2023.03.29-10.09.23:659][535]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.29-10.09.23:669][535]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 5
+[2023.03.29-10.09.23:670][535]PIE: Server logged in
+[2023.03.29-10.09.23:670][535]PIE: Play in editor total start time 0.249 seconds.
+[2023.03.29-10.09.25:446][633]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 0
+[2023.03.29-10.09.27:407][750]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 1
+[2023.03.29-10.09.28:251][801]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] Confuse!!
+[2023.03.29-10.09.28:252][801]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 98
+[2023.03.29-10.09.28:252][801]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ReceiveActorBeginOverlap
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ExecuteUbergraph_BP_Dottie
+	Function /Game/TileSystem/BP_GridTile.BP_GridTile_C:HandleLadybugCollision
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:Event Impediment
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ExecuteUbergraph_BP_Dottie
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ConfuseLadybug
+
+[2023.03.29-10.09.28:259][801]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_14.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.09.28:261][801]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_14.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.09.30:409][801]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_14.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.09.30:414][801]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_14.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.09.30:970][801]LogDerivedDataCache: C:/Users/rcj97/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.421 and deleted 0 file(s) with total size 0 MiB.
+[2023.03.29-10.09.36:496][801]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 361
+[2023.03.29-10.09.36:496][801]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ReceiveActorBeginOverlap
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ExecuteUbergraph_BP_Dottie
+	Function /Game/TileSystem/BP_GridTile.BP_GridTile_C:HandleLadybugCollision
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:Event Impediment
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ExecuteUbergraph_BP_Dottie
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ConfuseLadybug
+
+[2023.03.29-10.09.36:501][801]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_14.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.09.36:503][801]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_14.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.09.37:624][801]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_14.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.09.37:628][801]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_14.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.09.39:296][801]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 530
+[2023.03.29-10.09.39:296][801]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ReceiveActorBeginOverlap
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ExecuteUbergraph_BP_Dottie
+	Function /Game/TileSystem/BP_GridTile.BP_GridTile_C:HandleLadybugCollision
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:Event Impediment
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ExecuteUbergraph_BP_Dottie
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ConfuseLadybug
+
+[2023.03.29-10.09.39:305][801]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_14.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.09.39:308][801]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_14.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.09.40:157][801]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 259
+[2023.03.29-10.09.40:157][801]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ReceiveTick
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ExecuteUbergraph_BP_Dottie
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:Move Ladybug Impediment
+
+[2023.03.29-10.09.40:168][801]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_14.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.09.40:170][801]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_14.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.09.44:692][801]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_14.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.09.44:695][801]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_14.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.09.47:191][802]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 259
+[2023.03.29-10.09.47:191][802]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ReceiveTick
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ExecuteUbergraph_BP_Dottie
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:Move Ladybug Impediment
+
+[2023.03.29-10.09.47:201][802]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_14.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.09.47:204][802]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_14.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.09.49:039][803]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 259
+[2023.03.29-10.09.49:039][803]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ReceiveTick
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ExecuteUbergraph_BP_Dottie
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:Move Ladybug Impediment
+
+[2023.03.29-10.09.49:054][803]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_14.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.09.49:057][803]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_14.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.09.56:482][803]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_Update Target Location', from offset 474
+[2023.03.29-10.09.56:482][803]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ReceiveTick
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:ExecuteUbergraph_BP_Dottie
+	Function /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie_C:Move Ladybug Impediment
+
+[2023.03.29-10.09.56:492][803]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_14.W_GameplayUI_C_0.WidgetTree.Image_1.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.09.56:495][803]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_14.W_GameplayUI_C_0.WidgetTree.ProgressBar_0.FloatBinding_0 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2023.03.29-10.10.01:635][803]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 5
+[2023.03.29-10.10.03:683][926]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 10
+[2023.03.29-10.10.05:692][ 45]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-10.10.05:692][ 45]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.03.29-10.10.05:693][ 45]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.29-10.10.05:693][ 45]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-10.10.05:705][ 45]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.29-10.10.05:710][ 45]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-10.10.05:747][ 45]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-10.10.05:747][ 45]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.03.29-10.10.05:748][ 45]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.03.29-10.10.05:759][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.03.29-10.10.05:777][ 46]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2023.03.29-10.10.14:263][519]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.29-10.10.14:268][519]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.29-10.10.14:268][519]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.29-10.10.14:268][519]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.29-10.10.14:268][519]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.03.29-10.10.14:268][519]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.03.29-10.10.14:268][519]LogWorldPartition: Display: GetPartitionedActors took 33 us
+[2023.03.29-10.10.14:268][519]LogWorldPartition: Display: GenerateStreaming took 123 us
+[2023.03.29-10.10.14:268][519]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.29-10.10.14:268][519]PIE: New page: PIE session: ThirdPersonMap (29-Mar-2023, 2:10:14 am)
+[2023.03.29-10.10.14:268][519]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.03.29-10.10.14:270][519]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.03.29-10.10.14:271][519]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002551s)
+[2023.03.29-10.10.14:271][519]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002593s)
+[2023.03.29-10.10.14:271][519]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.29-10.10.14:272][519]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.03.29-10.10.14:272][519]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.29-10.10.14:272][519]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.03.29-10.10.14:272][519]LogWorldPartition: Display: WorldPartition initialize took 526 us
+[2023.03.29-10.10.14:272][519]LogPlayLevel: PIE: World Init took: (0.001306s)
+[2023.03.29-10.10.14:306][519]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.03.29-10.10.14:308][519]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2023.03.29-10.10.14:308][519]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.29-10.10.14:308][519]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.29-10.10.14:308][519]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.29-10.10.14:308][519]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.29-10.10.14:308][519]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.29-10.10.14:308][519]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.29-10.10.14:308][519]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.29-10.10.14:308][519]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.29-10.10.14:308][519]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.29-10.10.14:308][519]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.29-10.10.14:308][519]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.29-10.10.14:311][519]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.29-10.10.14:359][519]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.03.29-10.10.14:360][519]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.29-10.10.14:360][519]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.29-10.10.14:360][519]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.29-10.10.14:360][519]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2023.03.29-10.10.14:360][519]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2023.03.29-10.10.14:362][519]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2023.03.29-10.10.14:362][519]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2023.03.29-10.10.14:362][519]LogInit: FAudioDevice initialized.
+[2023.03.29-10.10.14:362][519]LogAudio: Display: Audio Device (ID: 17) registered with world 'ThirdPersonMap'.
+[2023.03.29-10.10.14:374][519]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.03.29-10.10.14:375][519]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2023.03.29-06.10.14
+[2023.03.29-10.10.14:375][519]LogWorld: Bringing up level for play took: 0.000946
+[2023.03.29-10.10.14:377][519]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2023.03.29-10.10.14:379][519]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Dirt Collecting: 0/3
+[2023.03.29-10.10.14:379][519]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=392.013
+[2023.03.29-10.10.14:379][519]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.29-10.10.14:390][519]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 5
+[2023.03.29-10.10.14:390][519]PIE: Server logged in
+[2023.03.29-10.10.14:390][519]PIE: Play in editor total start time 0.124 seconds.
+[2023.03.29-10.10.16:281][627]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 0
+[2023.03.29-10.10.18:236][744]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 1
+[2023.03.29-10.10.19:080][795]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] Confuse!!
+[2023.03.29-10.10.19:970][848]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 5
+[2023.03.29-10.10.22:017][971]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 10
+[2023.03.29-10.10.24:133][ 98]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 15
+[2023.03.29-10.10.26:250][225]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 20
+[2023.03.29-10.10.28:370][352]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 21
+[2023.03.29-10.10.30:402][474]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 22
+[2023.03.29-10.10.32:517][601]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 23
+[2023.03.29-10.10.34:635][728]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 24
+[2023.03.29-10.10.35:564][784]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] Confuse!!
+[2023.03.29-10.10.36:451][837]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 18
+[2023.03.29-10.10.37:314][889]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] Confuse!!
+[2023.03.29-10.10.38:201][942]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 24
+[2023.03.29-10.10.39:065][994]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] Confuse!!
+[2023.03.29-10.10.39:951][ 47]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 18
+[2023.03.29-10.10.40:814][ 99]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] Confuse!!
+[2023.03.29-10.10.41:701][152]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 22
+[2023.03.29-10.10.43:750][275]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 21
+[2023.03.29-10.10.45:852][401]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 20
+[2023.03.29-10.10.47:957][527]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 15
+[2023.03.29-10.10.49:971][648]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 10
+[2023.03.29-10.10.52:087][775]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 5
+[2023.03.29-10.10.54:187][901]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 0
+[2023.03.29-10.10.56:307][ 28]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 1
+[2023.03.29-10.10.57:159][ 78]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] Confuse!!
+[2023.03.29-10.10.58:049][131]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 5
+[2023.03.29-10.11.00:103][254]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 10
+[2023.03.29-10.11.00:722][289]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-10.11.00:722][289]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.03.29-10.11.00:722][289]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.29-10.11.00:722][289]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-10.11.00:737][289]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.29-10.11.00:742][289]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-10.11.00:779][289]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-10.11.00:779][289]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.03.29-10.11.00:781][289]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.03.29-10.11.00:791][289]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2023.03.29-10.11.00:810][290]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2023.03.29-10.12.07:966][302]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.29-10.12.07:971][302]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.29-10.12.07:971][302]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.29-10.12.07:971][302]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.29-10.12.07:971][302]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.03.29-10.12.07:971][302]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.03.29-10.12.07:971][302]LogWorldPartition: Display: GetPartitionedActors took 35 us
+[2023.03.29-10.12.07:971][302]LogWorldPartition: Display: GenerateStreaming took 129 us
+[2023.03.29-10.12.07:972][302]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.03.29-10.12.07:976][302]LogPlayLevel: [PlayLevel] Compiling BP_Dottie before play...
+[2023.03.29-10.12.08:099][302]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2023.03.29-10.12.08:104][302]LogPlayLevel: PlayLevel: Blueprint regeneration took 132 ms (1 blueprints)
+[2023.03.29-10.12.08:105][302]PIE: New page: PIE session: ThirdPersonMap (29-Mar-2023, 2:12:08 am)
+[2023.03.29-10.12.08:105][302]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.03.29-10.12.08:108][302]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.03.29-10.12.08:108][302]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002735s)
+[2023.03.29-10.12.08:108][302]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002782s)
+[2023.03.29-10.12.08:108][302]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.29-10.12.08:108][302]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.03.29-10.12.08:109][302]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.29-10.12.08:109][302]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.03.29-10.12.08:109][302]LogWorldPartition: Display: WorldPartition initialize took 529 us
+[2023.03.29-10.12.08:109][302]LogPlayLevel: PIE: World Init took: (0.001329s)
+[2023.03.29-10.12.08:143][302]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.03.29-10.12.08:144][302]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2023.03.29-10.12.08:144][302]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.29-10.12.08:144][302]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.29-10.12.08:144][302]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.29-10.12.08:144][302]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.29-10.12.08:144][302]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.29-10.12.08:144][302]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.29-10.12.08:144][302]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.29-10.12.08:144][302]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.29-10.12.08:144][302]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.29-10.12.08:144][302]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.29-10.12.08:144][302]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.29-10.12.08:147][302]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.29-10.12.08:195][302]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.03.29-10.12.08:195][302]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.29-10.12.08:196][302]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.29-10.12.08:196][302]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.29-10.12.08:196][302]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2023.03.29-10.12.08:196][302]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2023.03.29-10.12.08:198][302]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2023.03.29-10.12.08:198][302]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2023.03.29-10.12.08:198][302]LogInit: FAudioDevice initialized.
+[2023.03.29-10.12.08:198][302]LogAudio: Display: Audio Device (ID: 18) registered with world 'ThirdPersonMap'.
+[2023.03.29-10.12.08:212][302]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.03.29-10.12.08:213][302]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2023.03.29-06.12.08
+[2023.03.29-10.12.08:213][302]LogWorld: Bringing up level for play took: 0.000928
+[2023.03.29-10.12.08:215][302]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2023.03.29-10.12.08:216][302]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Dirt Collecting: 0/3
+[2023.03.29-10.12.08:217][302]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=392.013
+[2023.03.29-10.12.08:217][302]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.29-10.12.08:227][302]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 5
+[2023.03.29-10.12.08:228][302]PIE: Server logged in
+[2023.03.29-10.12.08:228][302]PIE: Play in editor total start time 0.257 seconds.
+[2023.03.29-10.12.11:175][471]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 0
+[2023.03.29-10.12.13:130][588]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 1
+[2023.03.29-10.12.13:976][639]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] Confuse!!
+[2023.03.29-10.12.14:865][692]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 5
+[2023.03.29-10.12.20:555][ 33]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 10
+[2023.03.29-10.12.22:671][160]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 15
+[2023.03.29-10.12.24:787][287]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 20
+[2023.03.29-10.12.26:908][414]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 21
+[2023.03.29-10.12.28:928][535]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 22
+[2023.03.29-10.12.31:043][662]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 23
+[2023.03.29-10.12.33:156][786]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 24
+[2023.03.29-10.12.34:097][842]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] Confuse!!
+[2023.03.29-10.12.34:982][893]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 22
+[2023.03.29-10.12.37:116][ 20]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 21
+[2023.03.29-10.12.39:217][146]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 20
+[2023.03.29-10.12.41:319][272]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 15
+[2023.03.29-10.12.43:334][393]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 10
+[2023.03.29-10.12.45:433][519]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 5
+[2023.03.29-10.12.47:538][645]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 0
+[2023.03.29-10.12.49:657][770]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 1
+[2023.03.29-10.12.50:521][822]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] Confuse!!
+[2023.03.29-10.12.51:411][875]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 5
+[2023.03.29-10.12.53:459][998]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 10
+[2023.03.29-10.12.55:576][124]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 15
+[2023.03.29-10.12.57:695][251]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 20
+[2023.03.29-10.12.59:813][378]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 21
+[2023.03.29-10.13.01:848][500]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 22
+[2023.03.29-10.13.03:968][627]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 23
+[2023.03.29-10.13.06:103][755]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 24
+[2023.03.29-10.13.07:050][812]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] Confuse!!
+[2023.03.29-10.13.07:936][865]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 22
+[2023.03.29-10.13.10:051][992]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 21
+[2023.03.29-10.13.12:133][115]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 20
+[2023.03.29-10.13.14:236][241]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 15
+[2023.03.29-10.13.16:245][358]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 10
+[2023.03.29-10.13.34:007][421]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 5
+[2023.03.29-10.13.36:125][548]LogBlueprintUserMessages: [BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351] 0
+[2023.03.29-10.13.37:925][650]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-10.13.37:926][650]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.03.29-10.13.37:926][650]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.29-10.13.37:926][650]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-10.13.37:940][650]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.29-10.13.37:945][650]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-10.13.37:982][650]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-10.13.37:982][650]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.03.29-10.13.37:984][650]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.03.29-10.13.37:994][650]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2023.03.29-10.13.38:018][651]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2023.03.29-10.13.44:021][  4]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie without an associated node. The blueprint breakpoint has been removed
+[2023.03.29-10.13.44:021][  4]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie without an associated node. The blueprint breakpoint has been removed
+[2023.03.29-10.13.44:021][  4]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie without an associated node. The blueprint breakpoint has been removed
+[2023.03.29-10.13.44:021][  4]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie without an associated node. The blueprint breakpoint has been removed
+[2023.03.29-10.14.31:657][593]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_Dottie
+[2023.03.29-10.14.31:658][593]LogSavePackage: Moving '../../../../../UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/DustyDottie/Saved/BP_Dottie65ADA60842BC44FDDFE9B2AC762EBC12.tmp' to '../../../../../UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/DustyDottie/Content/ThirdPerson/Blueprints/BP_Dottie.uasset'
+[2023.03.29-10.14.31:674][593]AssetCheck: New page: Asset Save: BP_Dottie
+[2023.03.29-10.14.31:674][593]LogContentValidation: Display: Validating Blueprint /Game/ThirdPerson/Blueprints/BP_Dottie.BP_Dottie
+[2023.03.29-10.14.32:912][656]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2023.03.29-10.14.34:613][656]LogSlate: Window 'Save Content' being destroyed
+[2023.03.29-10.14.34:660][656]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/O4/T4T0G8LQF7AY1B02QGQ3K1
+[2023.03.29-10.14.34:660][656]LogSavePackage: Moving '../../../../../UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/DustyDottie/Saved/T4T0G8LQF7AY1B02QGQ3K14C67499D417D41D0F71CFC8E70A88257.tmp' to '../../../../../UPennCGGT/Spring2023/CIS5680-GameDesignPracticum/UnrealProjects/dusty-dottie/DustyDottie/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/O4/T4T0G8LQF7AY1B02QGQ3K1.uasset'
+[2023.03.29-10.14.34:680][656]AssetCheck: New page: Asset Save: BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351
+[2023.03.29-10.14.34:680][656]LogContentValidation: Display: Validating BP_Dottie_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Dottie_C_UAID_3C22FB7E774EB06F01_1146780351
